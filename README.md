@@ -3,7 +3,7 @@ A simple and elegant Countdown Timer built using HTML, CSS, and JavaScript. This
 
 # Technologies Used
 HTML: Structure of the web page.
-br
+<br>
 CSS: Styling for an appealing user interface.
-br
+<br>
 JavaScript: Logic for the countdown functionality.
