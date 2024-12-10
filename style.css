@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(69, 59, 59);
+    color: azure;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin: 0;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.container{
+    width: 80%;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(121, 121, 151);
+    padding: 1.5rem;
+}
+
+h1{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+
+}
+
+h2{
+    font-size: 1.58rem;
+
+}
+
+#countdown{
+    display:flex;
+    justify-content: space-around;
+    gap: 1.89rem;
+
+}
+
+#countdown div{
+    padding: 1.5rem;
+    background-color: beige;
+    color: black;
+    border-radius: 0.2rem;
+    font-size: large;
+    margin-bottom: 1rem;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+span{
+    font-size: xx-large;
+}
+
+.progress-container{
+    height: 10px;
+    width: 100%;
+    background-color: aliceblue;
+    margin-top: 1.5rem;
+    border-radius: 1.2rem;
+    overflow:hidden ;
+}
+
+#progress-bar{
+    background-color: chartreuse;
+    width: 50%;
+    height: 100%;
+    transition:width 1s ease-in-out;
+    border-radius: 1.5rem;
+}
